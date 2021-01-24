@@ -1,0 +1,4 @@
+#Whitelist
+#Sauce must have ALL tags listed here or else it will be rejected.
+#ONE ENTRY PER LINE!
+#Lines starting with # are ignored.
