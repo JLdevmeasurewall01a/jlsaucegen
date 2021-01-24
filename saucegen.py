@@ -48,7 +48,7 @@ for attempt in range(20): #repeate the following code 20 times
 		
 		#Read the blacklist and the whitelist file
 		checkBlackList = True
-		checkWhiteList = True
+		checkWhiteList = False #feature disabled for now; unusable
 		try:
 			blacklistFile = open('blacklist.txt', 'r')
 		except FileNotFoundError:
