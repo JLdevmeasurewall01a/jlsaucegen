@@ -15,7 +15,6 @@ def CheckBlacklistedTags( doujinTags, blacklistedTags):
             #skip comments
             if b.startswith("#"):
                 continue
-            print(f"CBTS: BTAG {b}")
             if i == b.strip():
                 clearOfBadTags = False
                 break
