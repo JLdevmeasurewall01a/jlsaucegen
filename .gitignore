@@ -129,4 +129,6 @@ dmypy.json
 .pyre/
 
 #extra stuff here
-#...
+./blacklist.txt
+./whitelist.txt
+./foundCodes.txt
